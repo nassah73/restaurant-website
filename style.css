@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+
+    font-family: 'Arial', sans-serif;
+    background: -moz-linear-gradient(black,white,to left);
+}
+.head{
+ display: flex;
+ justify-content: space-around;
+ margin-top: 10px;
+ background-color: #efcca4;
+ padding: 20px 0;
+}
+.head a{
+    color: black;
+    font-weight: 800;
+}
