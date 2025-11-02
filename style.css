@@ -62,3 +62,26 @@ body {
    z-index: -1;
    border-radius: 10px;
 }
+.food{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+   
+
+}
+.Food{
+ position: absolute;
+    bottom: 60px;
+}
+.p1{
+    margin: 50px 85px ;
+}
+.p2{
+   margin: 50px 33px ; 
+}
+.p3{
+    margin: 50px 85px ; 
+}
+.p4{
+    margin: 50px 33px ;  
+}
