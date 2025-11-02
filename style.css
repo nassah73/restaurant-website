@@ -6,16 +6,59 @@
 body {
 
     font-family: 'Arial', sans-serif;
-    background: -moz-linear-gradient(black,white,to left);
+    background:linear-gradient(to left, black 50%,rgb(49, 47, 47) );
+
 }
 .head{
  display: flex;
  justify-content: space-around;
  margin-top: 10px;
- background-color: #efcca4;
+
  padding: 20px 0;
 }
 .head a{
-    color: black;
+  color: white;
     font-weight: 800;
+}
+.form{
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(20, 156, 20);
+    position: absolute;
+    top: 0;
+    left: 80px;
+    border-radius: 0 0 50px 60px;
+}
+.head p{
+    color: white;
+}
+.head button{
+    padding: 5px;
+    margin-bottom: 15px;
+
+}
+.bergur{
+    width: 400px;
+    position: absolute;
+    left: 80px;
+    top: 80px;
+}
+.divs{
+    display: flex;
+    /*justify-content: space-around;*/
+   margin-left: 100px;
+   position: absolute;
+   bottom: 60px;
+
+}
+.main{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(20, 156, 20) ;
+   /* position: absolute;*/
+    bottom: 10px;
+    margin: 0 60px;
+   z-index: -1;
+   border-radius: 10px;
 }
