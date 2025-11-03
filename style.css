@@ -85,3 +85,41 @@ body {
 .p4{
     margin: 50px 33px ;  
 }
+
+.header{
+    width: 400px;
+    justify-self: center;
+    display: flex;
+   
+    position: relative;
+    top: 100px;
+    left: 70px;
+    
+.cn{
+    width: 90%;
+    
+   }
+button{
+    width: 30%;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: yellow;
+}
+   
+    h1{
+        color: yellow;
+
+    }
+    p{
+        color: white;
+        line-height: 30px;
+    }
+   
+}
+.Alll{
+    width: 80%;
+    
+    justify-self: center;
+}
