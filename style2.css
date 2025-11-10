@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+     background:linear-gradient(to left, black 50%,rgb(49, 47, 47) );
+}
+.container{
+    width: 100%;
+    display:  flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    ul{
+        display: flex;
+        li{
+            margin: 0 40px;
+           list-style: none;
+           color: white;
+
+        }
+    }
+    a{
+        color: green;
+        font-weight: 600;
+    }
+}
