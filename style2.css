@@ -47,6 +47,7 @@ body{
     }
 }
 .content{
+    position: relative;
     width: 500;
     height: 200px;
     margin-top: 20px;
@@ -64,5 +65,15 @@ body{
         align-self: center;
         
         left: 50%;
+    }
+    .btn{
+       position: absolute; 
+       font-size: 27px;
+       bottom: -7rem;
+       background-color:  rgb(236, 51, 51); ;
+        right: 25%;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 10px;
     }
 }
