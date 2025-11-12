@@ -6,7 +6,7 @@
 body {
 
     font-family: 'Arial', sans-serif;
-    background:linear-gradient(to left, black 50%,rgb(49, 47, 47) );
+    background-color: rgb(235, 233, 233);
 
 }
 .head{
@@ -17,21 +17,29 @@ body {
  padding: 20px 0;
 }
 .head a{
-  color: white;
-    font-weight: 800;
+  color: rgb(232, 225, 225);
+        font-weight: 600;
+        font-size: 30px;
+        position: absolute;
+        left: 190px;
 }
 .form{
     z-index: -1;
     width: 400px;
     height: 400px;
-    background-color: rgb(20, 156, 20);
+    background-color: rgb(238, 74, 74);
     position: absolute;
     top: 0;
     left: 80px;
     border-radius: 0 0 50px 60px;
 }
 .head p{
-    color: white;
+    color: rgb(239, 11, 11);
+    letter-spacing: 3px;
+    font-size: larger;
+    font-weight: 600;
+    position: absolute;
+    right: 200px;
 }
 .head button{
     padding: 5px;
@@ -43,6 +51,7 @@ body {
     position: absolute;
     left: 80px;
     top: 80px;
+    z-index: -1;
 }
 .divs{
     display: flex;
@@ -55,7 +64,7 @@ body {
 .main{
     width: 100px;
     height: 100px;
-    background-color: rgb(20, 156, 20) ;
+     background-color: rgb(238, 74, 74);
    /* position: absolute;*/
     bottom: 10px;
     margin: 0 60px;
@@ -87,13 +96,14 @@ body {
 }
 
 .header{
-    width: 400px;
+    width: 600px;
     justify-self: center;
     display: flex;
    
     position: relative;
     top: 100px;
-    left: 70px;
+    right: -400px;
+    
     
 .cn{
     width: 90%;
@@ -101,19 +111,28 @@ body {
    }
 button{
     width: 30%;
-    height: 10%;
+    height: 15%;
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: yellow;
+     background-color: rgb(238, 74, 74);
+     border-radius: 5px;
+     
+     a{
+        color: rgb(216, 209, 209);
+        font-size: 16px;
+     }
 }
    
     h1{
-        color: yellow;
+       color: rgb(238, 74, 74);
 
     }
     p{
-        color: white;
+        color: rgb(148, 137, 137);
+    letter-spacing: 1px;
+   
+    font-weight: 600;
         line-height: 30px;
     }
    

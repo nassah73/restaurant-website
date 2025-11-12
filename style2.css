@@ -22,6 +22,14 @@ body{
            background-color: rgb(238, 74, 74);
            padding: 5px 10px;
            border-radius: 5px;
+           a{
+             margin: 0 30px;
+           list-style: none;
+           color: white;
+           background-color: rgb(238, 74, 74);
+          /* padding: 5px 10px;*/
+           border-radius: 5px;
+           }
 
         }
         li:hover{
@@ -30,7 +38,7 @@ body{
             cursor: pointer;
         }
     }
-    a{
+    .a{
         position: relative;
         left: 80px;
         color: rgb(238, 74, 74);
