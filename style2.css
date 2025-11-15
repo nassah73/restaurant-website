@@ -77,3 +77,21 @@ body{
         border-radius: 10px;
     }
 }
+.ourServise{
+    height: 700px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+    
+}
+.ourServise> *{
+  
+    width: 100px;
+    height: 100px;
+    background-color: black;
+ 
+}
