@@ -81,17 +81,18 @@ body{
     height: 700px;
     width: 70%;
     margin: 0 auto;
-    background-color: aqua;
+  /*  background-color: aqua;*/
+    margin-top: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    column-gap: 10px;
+    column-gap: 10px;*/
     
 }
-.ourServise> *{
-  
-    width: 100px;
-    height: 100px;
+.ourServise > *{
+  margin: 5px;
+    width: 250px;
+    height: 250px;
     background-color: black;
  
 }
