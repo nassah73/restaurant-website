@@ -82,7 +82,7 @@ body{
     width: 70%;
     margin: 0 auto;
   /*  background-color: aqua;*/
-    margin-top: 300px;
+    margin-top: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -95,5 +95,16 @@ body{
     height: 250px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px black;
- 
+
+}
+.item h1 {
+     justify-self: center;
+     text-align: center;
+    /*
+    margin-top: 10px;*/
+}
+.item:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
 }
