@@ -86,13 +86,14 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    column-gap: 10px;*/
+    column-gap: 10px;
     
 }
 .ourServise > *{
   margin: 5px;
     width: 250px;
     height: 250px;
-    background-color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
  
 }
