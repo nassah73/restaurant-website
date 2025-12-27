@@ -142,3 +142,6 @@ button{
     
     justify-self: center;
 }
+html {
+    scroll-behavior: smooth;
+}
