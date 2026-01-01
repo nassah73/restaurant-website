@@ -135,3 +135,78 @@ html {
     justify-content: space-around;
     align-items: center;
 }
+/* Footer General Style */
+footer {
+  background-color: #222;   /* خلفية غامقة */
+  color: #fff;              /* النص أبيض */
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+/* كل عمود */
+.footer-container div {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* العناوين */
+footer h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #f4b400; /* لون ذهبي */
+}
+
+/* النصوص */
+footer p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* الروابط */
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #f4b400;
+}
+
+/* أيقونات السوشيال ميديا */
+.footer-social a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #f4b400;
+}
+
+/* Copyright */
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #aaa;
+}
