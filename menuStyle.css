@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 0;
+  font-family: 'Arial', sans-serif;
+}
+.menu-image {
+   width: 100%;
+   height: 400px;
+   object-fit: cover;
+}
