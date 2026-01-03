@@ -14,3 +14,9 @@ footer {
    height: 400px;
    object-fit: cover;
 }
+.menu-container {
+    background-image: url('menu.jpg');
+    min-height: 500px; 
+    width: 100%;
+    background-size: cover; 
+}
