@@ -35,3 +35,15 @@ footer {
     margin-top: 10px;
     font-weight: 900;
 }
+.menu-title {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    color: #333;
+}
+.menu-subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #666;
+}
