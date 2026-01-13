@@ -80,3 +80,6 @@ footer {
     color: #666;
     margin-bottom: 15px;
 }
+footer .footer-content {
+  text-align: center;
+}
