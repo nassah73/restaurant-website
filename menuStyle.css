@@ -91,3 +91,7 @@ footer {
     flex: 1;
     margin: 0 10px;
 }
+
+.footer-container h3 {
+    margin-bottom: 10px;
+}
