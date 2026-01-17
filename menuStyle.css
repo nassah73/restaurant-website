@@ -95,3 +95,7 @@ footer {
 .footer-container h3 {
     margin-bottom: 10px;
 }
+.footer-container p {
+    font-size: 14px;
+    line-height: 1.6;
+}
