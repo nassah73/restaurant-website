@@ -99,3 +99,7 @@ footer {
     font-size: 14px;
     line-height: 1.6;
 }
+.footer-container a {
+    color: #fff;
+    text-decoration: none;
+}
