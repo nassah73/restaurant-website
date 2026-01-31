@@ -124,5 +124,8 @@ footer {
   margin-right: 15px;
   transition: color 0.3s;
 }
+.footer-links ul li a:hover {
+  color: #f4b400;
+}
 
 
