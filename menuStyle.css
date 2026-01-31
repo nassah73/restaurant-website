@@ -118,4 +118,11 @@ footer {
   color: #f4b400;
 }
 
+.footer-social a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
 
