@@ -127,5 +127,10 @@ footer {
 .footer-links ul li a:hover {
   color: #f4b400;
 }
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
 
 
