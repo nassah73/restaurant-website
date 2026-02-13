@@ -135,5 +135,9 @@ footer {
 .footer-links ul li {
   margin-bottom: 8px;
 }
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
 
 
